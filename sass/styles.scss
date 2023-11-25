@@ -1,4 +1,16 @@
- /* IMPORTS */
+ /*PARTIALS*/
+ /*BODY*/
+@use 'body';
+/*HEADER*/
+@use 'header';
+/*INPUT*/
+@use 'input';
+/*TEXTAREA*/
+@use 'textarea';
+/*BUTTON*/
+@use 'button';
+ 
+/* IMPORTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
 
@@ -20,37 +32,7 @@ $color-desHis: #45474B;
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    background-color: $color-body;
-    font-family: 'Gabarito' , cursive;
-    color: white;
-    box-sizing: border-box;
-}
-header{
-    background-color: $color-header;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    margin-bottom: 10px;
-}
-input{
-    background-color: $color-inputs;
-    color: black;
-    border-radius: 10px;
-}
-textarea{
-    background-color: $color-inputs;
-    border-radius: 2.5px;
-}
-button{
-    background-color:$color-inputs ;
-    color: black;
-    border-radius: 2.5px;
-    margin: 2px;
-}
-
+ 
  /*TERMINA PARTES HTML */
 
  /* MENU HAMBURGUESA */
@@ -100,7 +82,8 @@ button{
         .visible{
             opacity: 1;
             visibility: visible;
-        }
+            }
+        
     }
     .navList{
         flex-direction: column;
@@ -108,6 +91,7 @@ button{
         li a{
             color: white;
         }
+    
     }}
 
     /*TERMINA MENU HAMBURGUESA */
@@ -244,8 +228,22 @@ button{
 }
 .areaTextoContrataciones{
     margin-top: 10px;
+    margin-left: 25px;
     width: 100%;
     height: 200px;
+}
+.centrarContrataciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.cuadroContrataciones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
  /*TERMINA CONTRATACIONES */
@@ -259,6 +257,7 @@ button{
     margin-top: 10px;
     text-align: center;
     background-color: $color-header;
+    width: 100%;
 }
 .tituloSitiosRecomendados{
     grid-column: 1 / -1;

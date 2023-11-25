@@ -1,0 +1,13 @@
+$color-body: #232D3F;
+$color-header: #303c52;
+$color-inputs: #a9b6ce;
+$color-desHis: #45474B;
+
+header{
+    background-color: $color-header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-bottom: 10px;
+}
