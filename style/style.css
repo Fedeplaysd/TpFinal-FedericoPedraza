@@ -22,7 +22,7 @@ header {
 /*INPUT*/
 input {
   background-color: #a9b6ce;
-  color: black;
+  color: rgb(0, 0, 0);
   border-radius: 10px;
 }
 
@@ -115,20 +115,35 @@ button {
 /* FOOTER BOTON VOLVER */
 .footerPaginasNoIndex {
   display: flex;
-  justify-content: center;
-  margin: 3px;
+  justify-content: flex-end;
+  margin: 6px;
+}
+.footerPaginasNoIndex button {
+  border-radius: 15%;
 }
 
 /*TERMINA BOTON FOOTER */
 /* INDEX */
+.footerIndex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .barra {
   display: flex;
-  justify-content: space-evenly, center;
+  padding: 20px;
   align-content: center;
+  justify-items: center;
 }
 .barra img {
-  width: 100%;
+  width: 70%;
   height: auto;
+}
+.barra a {
+  width: 30%;
+  display: flex;
+  justify-content: center;
 }
 
 .h3barra {
@@ -241,15 +256,17 @@ button {
 }
 
 .textareacontr {
-  display: inline-block;
-  width: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .areaTextoContrataciones {
   margin-top: 10px;
-  margin-left: 25px;
+  margin-left: 42px;
+  margin-right: 42px;
   width: 100%;
-  height: 200px;
+  height: 260px;
 }
 
 .centrarContrataciones {
@@ -261,9 +278,10 @@ button {
 
 .cuadroContrataciones {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
   margin-bottom: 50px;
+  padding: 2px;
 }
 
 /*TERMINA CONTRATACIONES */

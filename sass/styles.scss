@@ -100,21 +100,33 @@ $color-desHis: #45474B;
 
 .footerPaginasNoIndex{
     display: flex;
-    justify-content: center;
-    margin: 3px;
+    justify-content: flex-end;
+    margin: 6px;
+    button{
+        border-radius: 15%;
+    }
 }
  /*TERMINA BOTON FOOTER */
 
  /* INDEX */
-
+.footerIndex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .barra{
     display: flex;
-    justify-content: space-evenly, center;
-    
+    padding: 20px;
     align-content: center;
+    justify-items: center;
     img{
-        width: 100%;
+        width: 70%;
         height: auto;
+    }
+    a{
+        width: 30%;
+        display: flex;
+        justify-content: center;
     } 
 }
 .h3barra{
@@ -223,14 +235,17 @@ $color-desHis: #45474B;
     text-align: left;
 }
 .textareacontr{
-    display: inline-block;
-    width: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
 }
 .areaTextoContrataciones{
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 42px;
+    margin-right: 42px;
     width: 100%;
-    height: 200px;
+    height: 260px;
 }
 .centrarContrataciones{
     display: flex;
@@ -241,9 +256,10 @@ $color-desHis: #45474B;
 }
 .cuadroContrataciones{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
     margin-bottom: 50px;
+    padding: 2px;
 }
 
  /*TERMINA CONTRATACIONES */
