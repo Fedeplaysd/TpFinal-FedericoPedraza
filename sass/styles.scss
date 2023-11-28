@@ -161,7 +161,6 @@ $color-desHis: #45474B;
 .inputMsj{
     background-color: $color-inputs;
 }
-
  /*TERMINA SECCION MENSAJES */
 
  /* SECCION PRODUCTOS */
@@ -223,7 +222,10 @@ $color-desHis: #45474B;
  /* TERMINA PRODUCTOS */
 
  /*SECCION CONTRATACIONES */
-
+.conteinerCheckText{
+    text-align: center;
+    padding: 2rem;
+}
 .paginaContrataciones{
     text-align: center;
 }

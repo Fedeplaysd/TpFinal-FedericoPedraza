@@ -242,6 +242,11 @@ button {
 
 /* TERMINA PRODUCTOS */
 /*SECCION CONTRATACIONES */
+.conteinerCheckText {
+  text-align: center;
+  padding: 2rem;
+}
+
 .paginaContrataciones {
   text-align: center;
 }
